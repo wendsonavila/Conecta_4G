@@ -1,0 +1,94 @@
+{
+  "Version": "1.0.1",
+  "ReleaseNotes": "Atualização Importante.",
+  "UrlUpdate": "https://github.com/wendsonavila/conecta4G.git",
+  "Sms": "https://github.com/wendsonavila/sms.git",
+  "EmailFeedback": "wendsonreis2019@gmail.com",
+  "UrlContato": "LINK DO SEU TELEGRAM",
+  "UrlTermos": "LINK DO SEU SITE AQUIl",
+  "CheckUser": "true",
+  "FormatCheck": "ddmmyyyy",
+  "Udp": [
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    },
+    {
+      "Porta": "7600"
+    },
+    {
+      "Porta": "7700"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "WRNET | PLUS1",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "chk.wrnet.online",
+      "CheckUser": "http://chk.wrnet.online:8990/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "WRNET | PLUS2",
+      "TYPE": "free",
+      "FLAG": "br.png",
+      "ServerIP": "chk.wrnet.online",
+      "CheckUser": "http://chk.wrnet.online:8990/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "free",
+      "PASS": "free"
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO TIM- 01",
+      "FLAG": "vivo",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO TIM- 02",
+      "FLAG": "vivo",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.19.94",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "TIM VIVO- 03",
+      "FLAG": "tim",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM VIVO- 04",
+      "FLAG": "tim",
+      "Payload": "GET ws://univ.wnnn3t.ml HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "univ.wnnn3t.ml",
+      "TlsIP": "univ.wnnn3t.ml",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    }
+  ]
+}
