@@ -56,7 +56,7 @@
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
+      "ProxyIP": "104.16.18.94",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
