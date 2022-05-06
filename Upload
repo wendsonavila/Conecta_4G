@@ -1,79 +1,52 @@
 {
-  "Version": "1.0.1",
-  "ReleaseNotes": "Atualização Importante.",
+  "Version": "1.0.2",
+  "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/Upload",
   "Sms": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/UrlSms",
-  "EmailFeedback": "wendsonreis2019@gmail.com",
-  "UrlContato": "HTTPS://t.me/Seu_Nome",
-  "UrlTermos": "LINK DO SEU SITE AQUIl",
+  "EmailFeedback": "wreis-ssh@gmail.com",
+  "UrlContato": "https://t.me/kiritosshxd",
+  "UrlTermos": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/Termos",
   "CheckUser": "true",
-  "FormatCheck": "ddmmyyyy",
-  "Udp": [
-    {
-      "Porta": "7300"
-    },
-    {
-      "Porta": "7400"
-    },
-    {
-      "Porta": "7500"
-    },
-    {
-      "Porta": "7600"
-    },
-    {
-      "Porta": "7700"
-    }
-  ],
+  "UdpPort": "7300;7400;7500;7600;7700",
   "Servers": [
     {
-      "Name": "WRNET | PLUS1",
+      "Name": "WReis SSH | PLUS",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "chk.wrnet.online",
-      "CheckUser": "http://chk.wrnet.online:8990/checkUser",
+      "ServerIP": "ssl.wrnet.online",
+      "CheckUser": "http://ssl.wrnet.online:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
     },
     {
-      "Name": "WRNET | PLUS2",
+      "Name": "PREMIUM 02 | PLUS",
       "TYPE": "free",
       "FLAG": "br.png",
-      "ServerIP": "chk.wrnet.online",
-      "CheckUser": "http://chk.wrnet.online:8990/checkUser",
+      "ServerIP": "exemplo02.dominio.xyz",
+      "CheckUser": "http://exemplo02.dominio.xyz:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "free",
-      "PASS": "free"
+      "USER": "kirito",
+      "PASS": "1234"
     }
   ],
   "Networks": [
     {
-      "Name": "VIVO TIM- 01",
+      "Name": "VIVO TLS 02",
       "FLAG": "vivo",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.18.94",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
-      "Name": "VIVO TIM- 02",
-      "FLAG": "vivo",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.19.94",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "TIM VIVO- 03",
+      "Name": "TIM TLS 02",
       "FLAG": "tim",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
@@ -81,14 +54,85 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM VIVO- 04",
+      "Name": "TIM TLS 03",
       "FLAG": "tim",
-      "Payload": "GET ws://univ.wnnn3t.ml HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "univ.wnnn3t.ml",
-      "TlsIP": "univ.wnnn3t.ml",
+      "Payload": "GET wss://m.timbancavirtual.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "m.timbancavirtual.com.br",
+      "TlsIP": "m.timbancavirtual.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    }
+    },
+    {
+      "Name": "TIM TLS 04",
+      "FLAG": "tim",
+      "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "cdnjs.cloudflare.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM TLS 05",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.16.19.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+
+    {
+      "Name": "CLARO TLS 01",
+      "FLAG": "claro",
+      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO SSL 02",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "dns.web.whatsapp.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "CLARO SSL 03",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.waze.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "CLARO SSL 04",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "web.whatsapp.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "CLARO SSL 05",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.twitter.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+    },
   ]
 }
