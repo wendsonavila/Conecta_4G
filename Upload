@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/Upload",
   "Sms": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/UrlSms",
@@ -67,8 +67,8 @@
       "Name": "CLARO SSL 05",
       "FLAG": "claro",
       "Payload": "",
-      "SNI": "m.twitter.com",
-      "TlsIP": "",
+      "SNI": "gedoc.vivo.com.br",
+      "TlsIP": "104.18.7.80",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Ssl"
