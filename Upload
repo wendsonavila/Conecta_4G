@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.2",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/Upload",
   "Sms": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/UrlSms",
@@ -32,46 +32,56 @@
       "PASS": "1234"
     }
   ],
-  "Networks": [
+  "Networks": "Networks": [
     {
-      "Name": "TIM SSL 01",
-      "FLAG": "Tim",
-      "Payload": "",
+      "Name": "Todas as Operadoras",
+      "FLAG": "vivo",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.56.6",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "VIVO",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.57.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "Tim",
+      "FLAG": "tim",
+      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "cdnjs.cloudflare.com",
       "TlsIP": "104.16.18.94",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Ssl"
+      "Info": "Tlsws"
     },
     {
-      "Name": "VIVO SSL 03",
-      "FLAG": "Vivo",
-      "Payload": "",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "104.16.18.94",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 04",
+      "Name": "Claro",
       "FLAG": "claro",
-      "Payload": "",
+      "Payload": "GET wss://no.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "no.descomplica.com.br",
-      "TlsIP": "199.60.103.228",
+      "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Ssl"
+      "Info": "Tlsws"
     },
     {
-      "Name": "CLARO SSL 05",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "gedoc.vivo.com.br",
-      "TlsIP": "104.18.7.80",
+      "Name": "Oi",
+      "FLAG": "oi",
+      "Payload": "GET wss://www.hbogo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Ssl"
-    },
+      "Info": "Tlsws"
+    }
   ]
 }
