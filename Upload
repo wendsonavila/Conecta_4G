@@ -14,22 +14,33 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "ssl.wrnet.online",
-      "CheckUser": "http://193.123.117.228:5454/checkUser",
+      "CheckUser": "http://193.123.123.141:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
     },
     {
-      "Name": "WReis SSH | TESTE",
-      "TYPE": "teste",
-      "FLAG": "br.png",
-      "ServerIP": "aws1.wrnet.online",
-      "CheckUser": "http://144.22.225.86:8989/checkUser",
+      "Name": "WReis SSH | FREE",
+      "TYPE": "free",
+      "FLAG": "ca.png",
+      "ServerIP": "www.wrnet.online",
+      "CheckUser": "http://167.114.48.165:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
+      "USER": "reiswend",
+      "PASS": "12345"
+    },
+    {
+      "Name": "WReis SSH | FREE",
+      "TYPE": "free",
+      "FLAG": "br.png",
+      "ServerIP": "qnax.wrnet.online",
+      "CheckUser": "http://209.14.70.173:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "reiswend",
+      "PASS": "12345"
     }
   ],
   "Networks": [
