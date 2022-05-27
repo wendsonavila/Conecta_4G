@@ -7,7 +7,7 @@
   "UrlContato": "https://t.me/WendsonReis",
   "UrlTermos": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/Termos",
   "CheckUser": "true",
-  "UdpPort": "7300;7400;7500;7600;7700",
+  "UdpPort": "7300",
   "Servers": [
     {
       "Name": "WReis SSH | PLUS",
@@ -35,8 +35,8 @@
       "Name": "WReis SSH | FREE",
       "TYPE": "free",
       "FLAG": "br.png",
-      "ServerIP": "qnax.wrnet.online",
-      "CheckUser": "http://209.14.70.173:5454/checkUser",
+      "ServerIP": "ssl2.wrnet.online",
+      "CheckUser": "http://193.123.124.177:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "reiswend",
@@ -107,8 +107,8 @@
     {
       "Name": "VIVO [SSL 1]",
       "FLAG": "vivo",
-      "Payload": "GET wss://money-staging.infinitepay.io/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "money-staging.infinitepay.io",
+      "Payload": "GET wss://bi-router.movistar.com.ar/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "bi-router.movistar.com.ar",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
       "ProxyPort": "443",
@@ -137,9 +137,9 @@
     {
       "Name": "CLARO [SSL 1]",
       "FLAG": "claro",
-      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
-      "SNI": "atendimento.descomplica.com.br",
-      "TlsIP": "no.descomplica.com.br",
+      "Payload": "GET wss://boom4u.com.br// HTTP/1.1[crlf]Host: [host_port][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "boom4u.com.br",
+      "TlsIP": "boom4u.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
