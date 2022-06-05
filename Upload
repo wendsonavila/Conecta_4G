@@ -141,7 +141,7 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    }
+    },
     {
       "Name": "🟡OI [SSL 1]",
       "FLAG": "oi",
