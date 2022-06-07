@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.1",
+  "Version": "1.1.2",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/Upload",
   "Sms": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/UrlSms",
@@ -20,6 +20,17 @@
       "USER": "",
       "PASS": ""
     },
+    {
+      "Name": "WReis SSH | free",
+      "TYPE": "free",
+      "FLAG": "br.png",
+      "ServerIP": "free.wrnet.online",
+      "CheckUser": "http://152.67.43.58:5000/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "free",
+      "PASS": "free"
+    }
   ],
   "Networks": [
     {
