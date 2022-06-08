@@ -24,7 +24,7 @@
       "Name": "WReis SSH | Free",
       "TYPE": "free",
       "FLAG": "br.png",
-      "ServerIP": "free.wrnet.online",
+      "ServerIP": "aws1.wrnet.online",
       "CheckUser": "http://144.22.225.86:5455/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
