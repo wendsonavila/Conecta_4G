@@ -21,10 +21,10 @@
       "PASS": ""
     },
     {
-      "Name": "WReis SSH | PLUS",
+      "Name": "WReis SSH | Free",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "ssl.wrnet.online",
+      "ServerIP": "free.wrnet.online",
       "CheckUser": "http://144.22.225.86:5455/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
