@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/Upload",
   "Sms": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/UrlSms",
@@ -10,7 +10,7 @@
   "UdpPort": "7300",
   "Servers": [
     {
-      "Name": "WReis SSH | PLUS",
+      "Name": "WReis SSH | 1",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "ssl.wrnet.online",
@@ -21,11 +21,11 @@
       "PASS": ""
     },
     {
-      "Name": "WReis SSH | PLUS",
+      "Name": "WReis SSH | 2",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "s3.wrnet.online",
-      "CheckUser": " http://193.123.123.141:5454/checkUser",
+      "CheckUser": "http://140.238.187.192:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
