@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/Upload",
   "Sms": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/UrlSms",
@@ -7,6 +7,7 @@
   "UrlContato": "https://t.me/WendsonReis",
   "UrlTermos": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/Termos",
   "CheckUser": "true",
+  "FormatCheck":yyyymmdd",
   "UdpPort": "7300",
   "Servers": [
     {
@@ -179,6 +180,16 @@
       "Payload": "GET wss://go.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "go.kaltura.com",
       "TlsIP": "go.kaltura.com",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔴CLARO [01.1]",
+      "FLAG": "claro",
+      "Payload": "GET wss://blog.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "blog.kaltura.com",
+      "TlsIP": "blog.kaltura.com",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
