@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/Upload",
   "Sms": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/UrlSms",
@@ -15,7 +15,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "wrnet.online",
-      "CheckUser": " http://150.230.91.188:5454/checkUser",
+      "CheckUser": " http://138.2.242.100:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
