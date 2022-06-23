@@ -14,7 +14,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "wrnet.online",
-      "CheckUser": " http://168.138.144.222:5454/checkUser",
+      "CheckUser": " http://check.wrnet.online:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
