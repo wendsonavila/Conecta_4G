@@ -1,7 +1,7 @@
 {
-  "Version": "1.1.2",
+  "Version": "1.1.3",
   "ReleaseNotes": "",
-  "UrlUpdate": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/Upload",
+  "UrlUpdate": "http://painel.wrnet.online/update.php",
   "Sms": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/UrlSms",
   "EmailFeedback": "wreis-ssh@gmail.com",
   "UrlContato": "https://t.me/WendsonReis",
