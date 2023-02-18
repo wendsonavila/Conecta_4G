@@ -1,7 +1,7 @@
 {
   "Version": "1.1.3",
   "ReleaseNotes": "",
-  "UrlUpdate": "http://painel.wrssh.shop/update/admin/config",
+  "UrlUpdate": "https://painel.wrssh.shop/update/admin/config",
   "Sms": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/UrlSms",
   "EmailFeedback": "wreis-ssh@gmail.com",
   "UrlContato": "https://t.me/WendsonReis",
