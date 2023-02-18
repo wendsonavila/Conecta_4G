@@ -1,7 +1,7 @@
 {
   "Version": "1.1.3",
   "ReleaseNotes": "",
-  "UrlUpdate": "http://painel.wrssh.shop/update/admin/config",
+  "UrlUpdate": "https://painel.wrssh.shop/update/admin/config",
   "Sms": "https://raw.githubusercontent.com/wendsonavila/Conecta_4G/main/UrlSms",
   "EmailFeedback": "wreis-ssh@gmail.com",
   "UrlContato": "https://t.me/WendsonReis",
@@ -218,16 +218,6 @@
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
       "TlsIP": "www.hbogo.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🟡OI [02]",
-      "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "www.hbogo.com.br",
-      "TlsIP": "104.16.53.91",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
